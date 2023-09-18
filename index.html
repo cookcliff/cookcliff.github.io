@@ -1,1 +1,125 @@
-<!DOCTYPE html><html><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Domain reserved on GitHub.</title><link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet"></head><body><div style="width:100%;height:100%;padding-left:20px;padding-right:20px;padding-top:26px;padding-bottom:26px;background:#fff;flex-direction:column;justify-content:flex-start;align-items:flex-start;gap:10px;display:inline-flex"><div style="align-self:stretch;flex:1 1 0;flex-direction:column;justify-content:flex-start;align-items:flex-start;gap:10px;display:flex"><div style="align-self:stretch;flex:1 1 0;flex-direction:column;justify-content:flex-start;align-items:center;gap:3px;display:flex"><div style="width:904.6px;text-align:center;color:#000;font-size:124px;font-family:Inter;font-weight:400;word-wrap:break-word">cookcliff.</div><div style="width:1217px;text-align:center;color:#000;font-size:53px;font-family:Inter;font-weight:400;word-wrap:break-word">Domain reserved on GitHub.</div><div style="width:304px;height:113px;position:relative"><div style="width:304.33px;height:100px;left:-.33px;top:6.5px;position:absolute;background:#a107ff;border-radius:26px"></div><a href="https://discord.gg/yXYEggEt5C" style="left:99.83px;top:24.5px;position:absolute;text-align:center;color:#fff;font-size:53px;font-family:Inter;font-weight:400;word-wrap:break-word">Join</a></div></div></div></div></body></html>
+<!-- START OF COOKCLIFF WEBPAGE -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+	<title>Cookcliff | The cooking universe.</title>
+	<style type="text/css">
+		@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+		p {
+			text-align: center;
+		}
+		.site {
+			margin: 0 auto;
+			max-width: 400px;
+			height: 100%;
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+		}
+
+		.category {
+			display: inline-flex;
+			padding: 10px;
+			justify-content: center;
+			align-items: center;
+			gap: 10px;
+			border-radius: 99px;
+			background: #7D7D7D;
+		}
+
+		button {
+			display: flex;
+			width: 141px;
+			height: 63px;
+			padding: 10px;
+			justify-content: center;
+			align-items: center;
+			gap: 10px;
+			border-radius: 18px;
+			background: #6E975F;
+			border: none;
+		}
+
+		button:hover {
+			display: flex;
+			width: 141px;
+			height: 63px;
+			padding: 10px;
+			justify-content: center;
+			align-items: center;
+			gap: 10px;
+			border-radius: 18px;
+			background: #a0dc8a;
+			border: none;
+		}
+
+		button:active {
+			display: flex;
+			width: 141px;
+			height: 63px;
+			padding: 10px;
+			justify-content: center;
+			align-items: center;
+			gap: 10px;
+			border-radius: 18px;
+			background: #2c3429;
+			border: none;
+		}
+
+		.hidden {
+			display: none;
+		}
+
+		/* You are allowed to use this CSS since it's not licensed. */
+	</style>
+</head>
+
+<body>
+	<!-- Cookcliff Design Guidelines -->
+	<!-- 	Add the page title first. It's usually good if you need to describe your site in one sentence. -->
+	<!-- 	Next is description. It could 2 to 4 sentences long. -->
+	<!--	Add a category and a button if you can. It's good for people to know what this site is about. -->
+	<!-- Last updated 18/09/2023 -->
+	<div class="site">
+		<span id="invite" class="hidden">${GGInvite}</span>
+		<h1 id="brand">${BrandName}.</h1>
+		<p id="whoare">${WhoAreUs}</p>
+		<br>
+		<small id="review">${Review}</small>
+		<h6 id="category" class="category">${Category}</h6>
+		<button onclick="invite()">Join Us</button>
+	</div>
+	<script type="text/javascript">
+		// Locales 
+		const WhoAreUs = "We are expanding the cooking universe. We are owning the commmunity for food with over ~500 members."
+		const Review = "5 Stars - from each member."
+		const Category = "Food"
+		const BrandName = "Cookcliff"
+		const GGInvite = "https://dsc.gg/cookcliff"
+
+		window.onload = function () {
+			document.getElementById("invite").innerHTML = GGInvite;
+			document.getElementById("brand").innerHTML = BrandName;
+			document.getElementById("whoare").innerHTML = WhoAreUs;
+			document.getElementById("review").innerHTML = Review;
+			document.getElementById("category").innerHTML = Category;
+		} 
+	</script>
+	<script type="text/javascript">
+		// Invite Button
+
+		// function invite() {
+		// 	window.location.href = "https://dsc.gg/cookcliff";
+		// }
+	</script>
+</body>
+
+</html>
+<!-- END OF COOKCLIFF WEBPAGE -->
